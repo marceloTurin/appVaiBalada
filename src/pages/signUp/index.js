@@ -31,10 +31,18 @@ export default class SignUp extends Component {
     }).isRequired,
   };
 
-  state = {
+  /*state = {
     username: 'csorlandi',
     email: 'cso.junior1996@gmail.com',
     password: '123456',
+    error: '',
+    success: '',
+  };*/
+
+  state = {
+    username: '',
+    email: '',
+    password: '',
     error: '',
     success: '',
   };
